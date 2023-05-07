@@ -1,0 +1,53 @@
+CopyAllPeopleOK: 昨日所有同志都完成的了学习！请大家继续保持。
+CopyBestPeople: 请其他同志向他们学习！
+CopyClosingRemarks: 学而时习之，不亦说乎！~~~大家继续加油！
+DataDate: -1
+NotFindTips: 该同志还不在系统中，请联系管理员添加信息
+StudyGroup:
+  JKDY:
+    People:
+      - 张三
+      - 张三
+      - 张三
+      - 张三
+      - 张三
+    Rules:
+      - Tips: 低于40分
+        name: Fail
+        rank: 40
+      - Tips: 低于41分
+        name: Warn
+        rank: 41
+      - Tips: 低于45分
+        name: Default
+        rank: 45
+      - Tips: 低于50分
+        name: Rank1
+        rank: 50
+      - Tips: 大于等于50分
+        name: Rank2
+        rank: 100
+  JKFZDX:
+    People:
+      - 测试人员
+    Rules:
+      - Tips: 不合格
+        name: Fail
+        rank: 45
+      - Tips: 合格
+        name: Default
+        rank: 49
+      - Tips: Good！
+        name: Rank1
+        rank: 53
+      - Tips: 太强了
+        name: Rank2
+        rank: 100
+isShowConclusion: true
+isShowCopy: true
+isShowPrintRuleTips: true
+myDesktop: E:\桌面
+orgGrayId: ''
+printRuleTips:
+  "\n-------【备用模板】--------------------\"\n可以在这里留存你的备用模板，比如经常可能会到的话，便于来复制。\n\
+  推荐定格写，这样输出时也是相对于命令行定格的，利于查看、复制等等。。。。\n你也可以在这里使用\n来换行输入！\n    "
